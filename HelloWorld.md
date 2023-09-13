@@ -1,10 +1,3 @@
-# Exercise 01
-
-When the server receives a request for any path, the server should return the string "Hello World!"
-
-![](assets/20230913_201211_hello-world.webp)
-
-
 # Exercise 02
 
 Implement in packaging `hellopath`to the existing class `HelloPathController`the following functionality:
