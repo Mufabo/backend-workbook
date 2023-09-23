@@ -28,7 +28,7 @@ class HelloPathsTests {
 
 	@Test
 	public void pathTest() throws Exception {
-		this.mockMvc.perform(get("/paths")).andExpect(content().string("Paths")));
+		this.mockMvc.perform(get("/paths")).andExpect(content().string("Paths"));
 	}
 
 	@Test
