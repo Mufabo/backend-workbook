@@ -1,4 +1,4 @@
-package wad._01_01_hello_browser;
+package wad._01_01_hello_world;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
