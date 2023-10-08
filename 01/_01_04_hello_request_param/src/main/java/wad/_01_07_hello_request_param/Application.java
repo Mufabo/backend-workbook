@@ -1,4 +1,4 @@
-package wad._01_04_hello_request_param;
+package wad._01_07_hello_request_param;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
