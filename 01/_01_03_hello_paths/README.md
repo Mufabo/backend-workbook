@@ -1,6 +1,6 @@
 # Exercise 03
 
-Implement in packaging `hellopaths`to the existing class `HelloPathsController`the following functionality:
+Implement in package `_01_03_hello_paths`the following functionality:
 
 * A request for a path`/hello`returns the string "Hello" to the user
 * A request for a path`/paths`returns the string "Paths" to the user
@@ -11,10 +11,7 @@ The picture below shows an example of a situation where the browser has made a r
 
 ---
 
-
-
-Several paths can be defined for one program.  Each
-path is handled in its own method.  In the example below, three separate
+Several paths can be defined for one program.  Each path is handled in its own method.  In the example below, three separate
 paths are defined for the class receiving requests, each of which
 returns a string to the user.
 
