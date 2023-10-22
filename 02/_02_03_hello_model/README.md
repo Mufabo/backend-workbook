@@ -1,11 +1,11 @@
 # Exercise 02 03: Hello Model
 
 A story has been implemented in the HTML file that comes with the assignment template, which needs a title and a main
-character.  Implement in packaging `_02_03_hello_model`located `HelloModelController`-class functionality that handles requests coming to the root path and uses the parameters coming in the request `index.html`to complete the story in the file.
+character.  Implement in packaging `_02_03_hello_model` functionality that handles requests coming to the root path and uses the parameters coming in the request `index.html`to complete the story in the file.
 
 The parameters that come with the request are named `title`and `person`.  Both are in string format.
 
-Add the values of the parameters that come with the request to the Model object given to Thymeleaf.  The title key should be `"title"`and the person's key must be `"person"`.  The page to be returned is in the folder `src/main/resources/templates/`existent `index.html`.
+Add the values of the parameters that come with the request to the Model object given to Thymeleaf.  The title key should be `"title"`and the person's key must be `"person"`.  The page to be returned is  index.htmlin the folder `src/main/resources/templates/`.
 
 Below is an example of how the program works when the request made to the root path has given as a title `Mökkielämää`and as a person `Leena`.
 
@@ -15,13 +15,11 @@ Below is an example of how the program works when the request made to the root p
 
 ---
 
-
 ## Adding information to a view using the Model class
 
 Data created or retrieved in the server software is added to the view [ using the Model ](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/ui/Model.html) object.
 
-When
-we add a Model object as a parameter to a method that handles requests,
+When we add a Model object as a parameter to a method that handles requests,
 the Spring application framework automatically adds it to our use.
 
 ```java
