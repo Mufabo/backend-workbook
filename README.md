@@ -1,7 +1,7 @@
 ## About
 
 **The university of Helsinki, the guys behind mooc.fi, used to have a free
-online course on the basics of web development with Java: **[**web-palvelinohjelmointi-21.mooc.fi/**](https://web-palvelinohjelmointi-21.mooc.fi/)** **
+online course on the basics of web development with Java: **[**web-palvelinohjelmointi-21.mooc.fi/**](https://web-palvelinohjelmointi-21.mooc.fi/)****
 
 **While the course is good and provides lots of hands on exercises
 (downloadable from mooc.fi's TestMyCode platform), it has a few issues:**
@@ -21,7 +21,7 @@ online course on the basics of web development with Java: **[**web-palvelinohjel
 
 ## **Prerequisites: What do I need to know to follow the course ?**
 
-* **Basic Java knowledge eg from the first 12 chapters of**[** https://java-programming.mooc.fi/**](https://java-programming.mooc.fi/)
+* **Basic Java knowledge eg from the first 12 chapters of**[**https://java-programming.mooc.fi/**](https://java-programming.mooc.fi/)
 * **Basis HTML, CSS and Javascript eg from ****one**** of**
   * **Freecodecamp: **[**www.freecodecamp.org/learn/2022/responsive-web-design/**](https://www.freecodecamp.org/learn/2022/responsive-web-design/)**  and **[**www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)****
   * **The Odin Project: **[**www.theodinproject.com/**](https://www.theodinproject.com/)****
