@@ -28,7 +28,7 @@ class ApplicationTests {
 
 	@Test
 	public void paramTest2() throws Exception {
-		this.mockMvc.perform(get("/greet?greeting=Oi&name=Mate")).andExpect(content().string("Oi, mate"));
+		this.mockMvc.perform(get("/greet?greeting=Oi&name=Mate")).andExpect(content().string("Oi, Mate"));
 	}
 
 	@Test
