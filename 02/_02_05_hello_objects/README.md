@@ -1,6 +1,8 @@
 # Exercise 02 05: Hello Objects
 
-There is an application in the task base that deals with `Item`-type entities.  Your task is to add the following additional functionality to the application:
+There is an application in the task base that deals with `Item`-type entities.
+
+Your task is to add the following additional functionality to the application:
 
 * When the user opens the root path of the application with the
   browser (ie makes a GET-type request to the root path of the

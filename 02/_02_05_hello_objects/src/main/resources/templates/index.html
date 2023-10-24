@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- Add stuff from here. -->
+
+        
+        <!-- Don't touch the stuff below -->
+        <h2>Add item</h2>
+
+        <form th:action="@{/}" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
