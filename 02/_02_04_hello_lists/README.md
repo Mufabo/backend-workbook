@@ -10,11 +10,9 @@ The task base also shows functionality for sending data to the server. We will d
 
 ---
 
-
 ## Displaying collections on Thymeleaf
 
-Collections
-of values can also be set for the Model object.  Below, we create a
+Collections of values can also be set for the Model object. Below, we create a
 list in the "main program" that is set to the Model object that
 Thymeleaf handles with each request to the root path.
 
@@ -59,7 +57,7 @@ collection to be traversed.  In terms of basic syntax `th:each`is as follows.
 
 Above we use an attribute named `lista`and
 for each element it contains, we create a p-element, inside which there
-is a span element whose text is the value of the element.  Attribute `th:each`can be set to virtually any repeatable element.  For example, an HTML list could be made in the following way.
+is a span element whose text is the value of the element. Attribute `th:each`can be set to virtually any repeatable element. For example, an HTML list could be made in the following way.
 
 ```xml
 <ul>

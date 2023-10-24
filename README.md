@@ -33,14 +33,15 @@ online course on the basics of web development with Java: **[**web-palvelinohjel
 
 * **Access to a Unix based machine. If you are using Windows, look into WSL2. Mac should be fine**
 * **A program to write code. I am using VS Code with the Java and Spring Boot Extension packs but feel to use whatever you want**
-* **Java, at least version 17. You can use a tool like SDKMan if you need to manage different Java Versions**
+* **Java version 17. You can use a tool like SDKMan if you need to manage different Java Versions**
 
 ## **What are we going to build ?**
 
 **This course contains several smaller exercises, where you are provided
 starter code and you have to implement an individual feature. The
 starter code comes usually with tests, allowing you to check your
-solutions. These exercises are independent of each other.**
+solutions. These exercises are independent of each other. 
+I recommend you do each exercise at least once from scratch though.**
 
 **Besides those, there is a larger project, where you will build a social network
 from scratch, one feature at time throughout the course. You will just
