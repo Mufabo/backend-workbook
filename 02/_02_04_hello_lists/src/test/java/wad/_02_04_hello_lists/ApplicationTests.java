@@ -26,12 +26,15 @@ class ApplicationTests {
 	@Test
 	public void contentFromFormAddedToList() throws Exception {
 		List<String> shouldNotContainItems = new ArrayList<>();
-		Collections.addAll(shouldNotContainItems, "Abracadabra", "Alakazam", "Bibbidi-Bobbidi-Boo", "By the Power of Grayskull, I HAVE THE POWER", "Open sesame", "Shazam", "sudo get me a sandwich");
+		Collections.addAll(shouldNotContainItems, "Abracadabra", "Alakazam", "Bibbidi-Bobbidi-Boo",
+				"By the Power of Grayskull, I HAVE THE POWER", "Open sesame", "Shazam", "sudo get me a sandwich");
 
 		List<String> shouldContainItems = new ArrayList<>();
 
-		while(!shouldNotContainItems.isEmpty()){
-			String pageContent = this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
+		while (!shouldNotContainItems.isEmpty()) {
+
+			String pageContent = this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
+					.andReturn().getResponse().getContentAsString();
 
 			shouldNotContainItems.stream().forEach(s -> assertThat(pageContent).doesNotContain(s));
 			shouldContainItems.stream().forEach(s -> assertThat(pageContent).contains(s));
@@ -41,9 +44,9 @@ class ApplicationTests {
 			shouldContainItems.add(itemToAdd);
 
 			this.mockMvc.perform(post("/").param("content", itemToAdd))
-							.andExpect(status().is3xxRedirection())
-							.andReturn();
+					.andExpect(status().is3xxRedirection())
+					.andReturn();
+
 		}
 	}
-
 }

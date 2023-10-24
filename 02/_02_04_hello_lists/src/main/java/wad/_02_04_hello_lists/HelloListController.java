@@ -22,7 +22,8 @@ public class HelloListController {
 
     @GetMapping("/")
     public String home(Model model) {
-        return "index";
+
+      return "index";
     }
 
     // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
