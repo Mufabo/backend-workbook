@@ -267,3 +267,16 @@ public class HenkiloController {
     }
 }
 ```
+
+The H2 database management system comes with a console that can be used to view the application database. When you go to the application path "/h2-console" in your browser, a console window will open. You can open the database used by the application.
+
+The task pools that use the database are defined so that you can access the database they use with the following H2-console settings:
+
+    Driver class: org.h2.Driver
+    JDBC URL: jdbc:h2:file:./database
+    User name: sa
+    Password:
+
+The password is therefore left blank.
+
+The console is always running when the application is running. We will learn later about methods to disable the console.
