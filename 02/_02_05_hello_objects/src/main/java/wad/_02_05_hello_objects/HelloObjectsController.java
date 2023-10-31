@@ -17,9 +17,9 @@ public class HelloObjectsController {
         this.items.add(new Item("Wizard hat", "pointy"));
     }
 
-    // Tee tänne juuripolkuun tulevan GET-tyyppisen pyynnön käsittelevä metodi
+    // Make a method to handle a GET request to the root path here
 
-    // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
+    // Don't touch this method -- we'll look at adding data a little later.
     @PostMapping("/")
     public String post(@RequestParam String name, @RequestParam String type) {
         this.items.add(new Item(name.trim(), type.trim()));
