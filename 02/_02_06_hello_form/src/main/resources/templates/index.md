@@ -8,7 +8,7 @@
         <h1 th:text="${content}">The data</h1>
 
         
-        <!-- toteuta tiedon lähettämiseen käytettävä lomake tänne -->
+        <!-- create a form to send the information here -->
         
     </body>
 </html>
