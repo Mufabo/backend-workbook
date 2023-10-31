@@ -18,8 +18,6 @@ When the application is working correctly, you can change the title displayed on
 
 ---
 
-
-
 can be defined for HTML pages [Forms ](http://www.w3schools.com/html/html_forms.asp) , with which the user can send information to the server.   The definition of the form takes place `form`-
 element, which is given as attributes the path to which the form is
 sent (action), and the type of request (method).  We keep the request
@@ -34,8 +32,7 @@ The form can define e.g.  text fields ( `<input type="text"...`) and a button to
 </form>
 ```
 
-When
-the above form is shown to the user in the browser, the user sees a
+When the above form is shown to the user in the browser, the user sees a
 text field and a button.  When the user presses the button, the form
 data is sent as a POST-type request to the server to the root address of
 the server (action="/").  If you want to change the address to which
